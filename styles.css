@@ -1,0 +1,80 @@
+body {
+    color: black;
+    background-color: rgb(250, 248, 238);
+    margin: 4px;
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(238, 192, 250);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(94, 0, 117);
+}
+
+.chamada {
+    background-color: burlywood;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-filmes {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid burlywood;
+}
+
+.categoria-filmes h2{
+    color: rgb(94, 0, 117);
+}
+
+.categoria-series {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid burlywood;
+}
+
+.categoria-series h3{
+    color: rgb(94, 0, 117);
+}
